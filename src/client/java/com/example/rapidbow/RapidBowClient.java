@@ -51,8 +51,7 @@ public class RapidBowClient implements ClientModInitializer {
             rapidFireEnabled = !rapidFireEnabled;
             if (client.player != null) {
                 client.player.sendSystemMessage(
-                        Component.literal("RapidBow: " + (rapidFireEnabled ? "ON" : "OFF")),
-                        true
+                        Component.literal("RapidBow: " + (rapidFireEnabled ? "ON" : "OFF"))
                 );
             }
         }
