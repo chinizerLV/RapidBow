@@ -20,7 +20,7 @@ jobs:
         run: chmod +x gradlew || true
 
       - name: Generate Gradle wrapper (if missing)
-        run: gradle wrapper --gradle-version 8.10 || true
+         run: gradle wrapper --gradle-version 9.5.1 || true
 
       - name: Build
         run: ./gradlew build --stacktrace
