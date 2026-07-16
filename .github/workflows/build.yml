@@ -19,8 +19,8 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew || true
 
-      - name: Generate Gradle wrapper (if missing)
-         run: gradle wrapper --gradle-version 9.5.1 || true
+      - name: Generate Gradle wrapper
+        run: gradle wrapper --gradle-version 9.5.1 || true
 
       - name: Build
         run: ./gradlew build --stacktrace
