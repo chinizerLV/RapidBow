@@ -3,7 +3,7 @@
   "id": "rapidbow",
   "version": "${version}",
   "name": "RapidBow",
-  "description": "Hold right-click with a bow to fire arrows as fast as possible. Press \\ to toggle on/off.",
+  "description": "Hold right-click with a bow to fire arrows as fast as possible. Press backslash to toggle on/off.",
   "authors": ["You"],
   "contact": {},
   "license": "MIT",
