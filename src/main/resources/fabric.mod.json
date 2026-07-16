@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "rapidbow",
+  "version": "1.0.0",
+  "name": "RapidBow",
+  "description": "Hold right-click with a bow to fire arrows as fast as possible. Press Enter to toggle on/off.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rapidbow/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.rapidbow.RapidBowClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "fabric-api": "*",
+    "java": ">=17"
+  }
+}
