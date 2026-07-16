@@ -10,7 +10,7 @@ import org.lwjgl.glfw.GLFW;
 
 public class RapidBowClient implements ClientModInitializer {
 
-    private static final int FIRE_AFTER_TICKS = 6;
+    private static final int FIRE_AFTER_TICKS = 4;
 
     private boolean rapidFireEnabled = true;
     private boolean lastToggleKeyState = false;
