@@ -44,13 +44,13 @@ public class RapidBowClient implements ClientModInitializer {
     }
 
     private void handleToggleKey(Minecraft client) {
-        long windowHandle = client.getWindow().getWindow();
+        long windowHandle = GLFW.glfwGetCurrentContext();
         boolean toggleKeyDown = GLFW.glfwGetKey(windowHandle, GLFW.GLFW_KEY_BACKSLASH) == GLFW.GLFW_PRESS;
 
         if (toggleKeyDown && !lastToggleKeyState) {
             rapidFireEnabled = !rapidFireEnabled;
             if (client.player != null) {
-                client.player.displayClientMessage(
+                client.player.sendSystemMessage(
                         Component.literal("RapidBow: " + (rapidFireEnabled ? "ON" : "OFF")),
                         true
                 );
