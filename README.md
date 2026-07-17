@@ -70,9 +70,9 @@ In `RapidBowClient.java`:
 private static final int FIRE_AFTER_TICKS = 1;
 ```
 
-- `4` = fastest possible (fires ~20x/sec, arrows have minimal power since
+- `4` = fastest possible (fires ~5x/sec, arrows have minimal power since
   there's almost no draw).
-- Raise it (e.g. `3`–`5`) if you want a bit more arrow power/damage per
+- Raise it to 5 if you want a bit more arrow power/damage per
   shot at the cost of fire rate — it's a straight speed-vs-power tradeoff,
   same as a normal bow draw.
 
