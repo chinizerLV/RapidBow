@@ -1,8 +1,8 @@
 # RapidBow — Fabric Mod (Minecraft 26.2)
 
 Hold **right-click** with a bow equipped and it fires as fast as possible
-instead of needing a full draw-and-release each shot. Press **`KEY_PAD_1`**
-(backslash) anytime to toggle rapid-fire on/off — a chat message confirms
+instead of needing a full draw-and-release each shot. Press **`NUM_PAD_1`**
+anytime to toggle rapid-fire on/off — a chat message confirms
 the state. When off, the bow behaves 100% vanilla.
 
 Built for **Minecraft 26.2**, using **Fabric Loader** + **Fabric API**,
@@ -36,4 +36,4 @@ private static final int FIRE_AFTER_TICKS = 4;
 
 ## Toggle key
 
-`\` (backslash) — swap `GLFW.GLFW_KEY_BACKSLASH` for another key if wanted.
+NUM_PAD_1 — swap `GLFW.GLFW_KEY_KP_1` for another key if wanted.
